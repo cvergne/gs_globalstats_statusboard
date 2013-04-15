@@ -6,7 +6,7 @@ A simple PHP script to display the last 3 months browser stats (partially combin
 The data is returned in JSON, to be used as native Graph in Panic's Status Board.
 
 ### Install
-Copy the `globalstats_statusboard` folder on your own server ( _it requires PHP to work_ ). 
+Copy the `globalstats_statusboard` folder on your own server ( _it requires PHP to work_ ).  
 Copy the url, like : `http://yourdomain.com/path/to/globalstats_statusboard/`
 
 ### Parameter
@@ -17,12 +17,12 @@ You can choose the number of columns to display.
 You can set the limit in the url : `/globalstats_statusboard/?limit=-1`
 
 ### Cache
-Widget cache result on the server, in the same place that the index file. 
+Widget cache result on the server, in the same place that the index file.  
 Cache time limit is 12 hours.
 
 ### Preview
 ![Preview of Globalstats Panic's Status Board widget](https://dl.dropboxusercontent.com/u/2185088/gs_statusboard.png)
 
 ### License
-Script: Copyright 2013 Christophe VERGNE 
-Data: Copyright 2013 Statcounter
+**Script:** Copyright 2013 Christophe VERGNE  
+**Data:** Copyright 2013 Statcounter
