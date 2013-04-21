@@ -18,7 +18,7 @@ You can set the limit in the url : `/globalstats_statusboard/?limit=-1`
 
 ### Cache
 Widget cache result on the server, in the same place that the index file.  
-Cache time limit is 12 hours.
+Cache time limit is 18 hours, like the auto-refresh time (in Status Board 1.1+).
 
 ### Preview
 ![Preview of Globalstats Panic's Status Board widget](https://dl.dropboxusercontent.com/u/2185088/gs_statusboard.png)
