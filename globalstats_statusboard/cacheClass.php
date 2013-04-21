@@ -65,7 +65,7 @@
                    . $sPage . self::$sCacheExt;
         }
 
-        public function getCache($sCacheName, $iCacheTime = 46800) {
+        public function getCache($sCacheName, $iCacheTime = 64800) {
 
             $this->sCacheName = $this->sPrefix . $sCacheName;
 

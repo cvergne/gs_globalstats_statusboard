@@ -30,7 +30,12 @@
         $result = array(
             'graph' => array(
                 'title' => 'Browser Versions',
-                'type' => 'bar'
+                'type' => 'bar',
+                'yAxis' => array(
+                    'units' => array(
+                        'suffix' => '%'
+                    )
+                )
             )
         );
 
@@ -48,6 +53,7 @@
             foreach ($gs_xml->set as $set) {
                 $result['graph']['datasequences'][] = array(
                     'title' => (string)$set['label'],
+                    'refreshEveryNSeconds' => 64800,     // 18 hours
                     'datapoints' => array(
                         array(
                             'title' => '',
