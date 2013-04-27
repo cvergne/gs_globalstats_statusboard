@@ -1,5 +1,5 @@
 # Cache files
-.cachefile
+*.cachefile
 
 # Compiled source #
 ###################
